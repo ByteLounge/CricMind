@@ -8,8 +8,8 @@ import { fetchCricketLiveMatches, fetchCricketUpcomingMatches, fetchCricketRecen
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, BarElement, BarController, Title, Tooltip, Legend, Filler);
 
-const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyBjadWPgAD6p0bWYQmMFZ_-HiSneC0MZk4";
-const ELEVENLABS_API_KEY = import.meta.env.VITE_ELEVENLABS_API_KEY || "sk_c130ff830190aac721d91ae99e26f06841194dbedf5d610e";
+const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "";
+const ELEVENLABS_API_KEY = import.meta.env.VITE_ELEVENLABS_API_KEY || "";
 const VOICE_ID = "CwhRBWXzGAHq8TQ4Fs17";
 const VOICE_OPTIONS = [
   { label: 'Voice 1', id: 'CwhRBWXzGAHq8TQ4Fs17' },
